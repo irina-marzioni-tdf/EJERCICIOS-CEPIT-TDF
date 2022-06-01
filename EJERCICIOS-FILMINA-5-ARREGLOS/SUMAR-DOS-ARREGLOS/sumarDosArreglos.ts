@@ -26,3 +26,5 @@ console.log ("vector 1 + vector 2 = vector resultante");
 for (let i:number = 0; i < 6; i++ ) {
     console.log(vector1[i] + " + " + vector2[i] + " = " + vectorResultante[i]);
 }
+
+console.log(`Vector Resultante: [${vectorResultante}]`);
