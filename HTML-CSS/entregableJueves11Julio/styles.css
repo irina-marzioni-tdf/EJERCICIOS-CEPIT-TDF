@@ -1,0 +1,76 @@
+body {
+    background-color: blanchedalmond;
+}
+h2{
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    text-align: justify;
+}
+
+img {
+    width: 50%;
+    height: auto;
+}
+
+
+
+.divGuanaco {
+    background-color: rgb(182, 182, 224);
+
+    margin: 30px;
+    border: 7px solid rgb(6, 6, 138);
+    padding: 30px
+    
+}
+.divGuanaco> img {
+    border: 4px solid rgb(4, 4, 121);
+    margin:auto;
+    display: block;
+}
+
+
+
+.divPinguino {
+    background-color: rgb(233, 156, 156);
+    
+    width: 900px;
+    height: 800px%;
+
+    border: 10px solid rgb(163, 4, 4);
+    padding:0px;
+    margin: 0px;
+}
+.divPinguino > img {
+    border: 4px solid rgb(179, 17, 11);
+    margin:auto;
+    display: block;
+}
+
+
+
+.divZorro {
+    background-color: rgb(226, 155, 107);
+    
+    width: 100%;
+    height: 100%;
+
+
+    border: 5px solid rgb(255, 103, 15);
+    padding:15px;
+    margin: 10px;
+}
+
+.divZorro > img {
+    border: 4px solid rgb(187, 72, 6);
+    border-radius: 20px;
+    margin:auto;
+    display: block;
+}
+
+
+
