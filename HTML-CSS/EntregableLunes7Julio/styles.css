@@ -1,0 +1,22 @@
+body {
+    background-image:  url(https://images4.alphacoders.com/918/918202.jpg);
+    background-size: cover;
+}
+p {
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h2 {
+    text-align: center;
+}
+
+
+.h2-impar {
+    color:rgb(204, 0, 0)
+}
+.h2-par {
+    color:rgb(15, 219, 93)
+}
+.p-colorFondo {
+background-color: rgb(129, 177, 179);
+}
