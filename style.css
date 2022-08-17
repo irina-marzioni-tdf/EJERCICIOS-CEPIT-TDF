@@ -1,0 +1,30 @@
+.container {
+    display: flex;
+    flex-direction:column;
+    flex-wrap: wrap;
+}
+ul {
+    list-style-position: none;
+}
+
+.productos {
+    margin-top: 3%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.product {
+width: 50vw;
+margin-bottom: 3%;
+}
+.cost, .cant {
+width: 15vw ;
+margin-bottom: 3%;
+}
+.btnTotal, .btnAgregar {
+    width: 20vw;
+}
+h2, li {
+    text-align: center;
+    font-style: italic;
+}

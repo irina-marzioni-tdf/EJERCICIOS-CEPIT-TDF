@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="estilos.css" />
+    <title>Lista de tareas</title>
+
+    <link rel="stylesheet" href="style.css">
+    ></script>
+  </head>
+  <body>
+    <div class="container">
+        <h1>Carrito de compras</h1>
+      
+      <form class="carritoCompras">
+        <label for="">Producto</label>
+        <input type="text" class="product" />
+        <label for="">Cantidad</label>
+        <input type="number" class="cant" />
+        <label for="">Costo</label>
+        <input type="number" class="cost" />
+
+        <input
+          type="button"
+          class="btnAgregar"
+          value=" Agregar producto"
+        />
+        <input
+          type="button"
+          class="btnTotal"
+          value="Total compra"
+        />
+      </form>
+      <div>
+        <ul id="listProd">Productos</ul>
+        <ul id="listCant">Cantidad</ul>
+        <ul id="listCost">Costo unitario</ul>
+        <ul id="listSubTotal">Precio total</ul>
+      </div>
+</div>
+<div>
+    <h5 class="total"></h5>
+</div>
+      <script src="codigo.js"></script>
+  </body>
+</html>
