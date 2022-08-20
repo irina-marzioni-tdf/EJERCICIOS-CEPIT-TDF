@@ -14,6 +14,10 @@ function agregarProducto() {
     let elementCant=document.createElement("li"); elementCant.innerHTML=cantidad;
     let elementCost=document.createElement("li"); elementCost.innerHTML=`$` +costo;
     let elementSubTotal=document.createElement("li"); elementSubTotal.innerHTML=`$` +subTotal;
+    let listProd = document.querySelector("#listProd");
+    let listCant = document.querySelector("#listCant");
+    let listCost = document.querySelector("#listCost");
+    let listSubTotal = document.querySelector("#listSubTotal");
     listProd.appendChild(elementProd);
     listCant.appendChild(elementCant);
     listCost.appendChild(elementCost);
